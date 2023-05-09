@@ -1,3 +1,8 @@
 .textJustify{
     text-align: justify;
 }
+.card:hover{
+    zoom: 90%;
+    transition: all .50s ease;
+    opacity: 0,7;
+}

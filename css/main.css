@@ -1,0 +1,30 @@
+.textJustify {
+  text-align: justify;
+}
+
+.card:hover {
+  transition: all 0.75s ease;
+  zoom: 90%;
+  opacity: 0, 7;
+  color: gold;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+main {
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,51 @@
+
+.container__fluid {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 100px;
+	h2 {
+        font-size: 30px;
+		// color: $color_1;
+		position: relative;
+		width: 23rem;
+	}
+}
+
+.accordion {
+	width: 100%;
+	padding: 0 5px;
+	border: 2px solid $color_1;
+	cursor: pointer;
+	border-radius: 50px;
+	display: flex;
+	margin: 10px;
+	align-items: center;
+	.icon {
+		margin: 0 10px 0 0;
+		width: 30px;
+		height: 30px;
+		background:  8px 7px $color_1;
+		border-radius: 50%;
+		float: left;
+		transition: all .5s ease-in;
+	}
+    h5 {
+		font-size: 22px;
+		margin: 0;
+		padding: 3px 0 0 0;
+		font-weight: normal;
+		color: $color_3;
+	}
+    
+}
+
+.panel {
+	padding: 0 15px;
+	border-left: 1px solid gold;
+	margin-left: 25px;
+	font-size: 14px;
+	text-align: justify;
+	overflow: hidden;
+	max-height: 300;
+	transition: all .5 ease-in;
+}

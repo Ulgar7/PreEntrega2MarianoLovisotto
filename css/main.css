@@ -26,5 +26,53 @@ main {
     font-size: 0.8rem;
   }
 }
+.container__fluid {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.container__fluid h2 {
+  font-size: 30px;
+  position: relative;
+  width: 23rem;
+}
+
+.accordion {
+  width: 100%;
+  padding: 0 5px;
+  border: 2px solid gold;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.accordion .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: 8px 7px gold;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+.accordion h5 {
+  font-size: 22px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: black;
+}
+
+.panel {
+  padding: 0 15px;
+  border-left: 1px solid gold;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 300;
+  transition: all 0.5 ease-in;
+}
 
 /*# sourceMappingURL=main.css.map */

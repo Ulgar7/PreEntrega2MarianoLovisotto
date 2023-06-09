@@ -3,7 +3,7 @@
 }
 
 .card:hover {
-  transition: all 0.75s ease;
+  transition: 0.3s;
   zoom: 90%;
   opacity: 0, 7;
   color: gold;
@@ -27,7 +27,7 @@ main {
   }
 }
 .container__fluid {
-  width: 40%;
+  width: 60%;
   margin: 0 auto;
   margin-top: 100px;
 }
